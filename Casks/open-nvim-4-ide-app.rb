@@ -1,4 +1,4 @@
-cask 'opennvim4ide-app' do
+cask 'open-nvim-4-ide-app' do
   version '1.0.0'
   sha256 'ef587d076d39fbc443895fa29c87231995c6d8c6'
 
