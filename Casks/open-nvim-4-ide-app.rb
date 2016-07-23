@@ -5,7 +5,7 @@ cask 'open-nvim-4-ide-app' do
   url "https://github.com/duminghui/open-x-vim-4-ide/archive/v#{version}.tar.gz"
   name "Open Nvim for IDE"
   homepage 'https://github.com/duminghui/open-x-vim-4-ide'
-  license :mit
+  license :bsd
 
   app "open-x-vim-4-ide-#{version}/open-nvim-4-ide.app"
 end
