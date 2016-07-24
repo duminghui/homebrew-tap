@@ -7,5 +7,5 @@ cask 'open-nvim-4-ide-app' do
   homepage 'https://github.com/duminghui/open-x-vim-4-ide'
   license :bsd
 
-  app "open-nvim-4-ide-app/open-nvim-4-ide.app"
+  app "open-nvim-4-ide.app"
 end
