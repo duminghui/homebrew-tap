@@ -1,6 +1,6 @@
 cask 'OpenNeoVim4IDE' do
-  version '1.0.2'
-  sha256 'c98dd5b61699ed84fd1d1d9712c6cec0dc0219e55b42dafd636289e240b70b0e'
+  version '1.0.3'
+  sha256 'ac1a1fbfe164f7d01a7ed17fded7ab6c1ba3b44a9c270a740b19b4b7f706e9cb'
 
   url "https://github.com/duminghui/open-x-vim-4-ide/releases/download/v#{version}/OpenNeoVim4IDE.tar.gz"
   name "Open NeoVim for IDE"
