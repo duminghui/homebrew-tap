@@ -5,7 +5,8 @@ cask 'OpenNeoVim4IDE' do
   url "https://github.com/duminghui/open-x-vim-4-ide/releases/download/v#{version}/OpenNeoVim4IDE.tar.gz"
   name "Open NeoVim for IDE"
   homepage 'https://github.com/duminghui/open-x-vim-4-ide'
-  license :bsd
+  license :gpl
 
+  auto_updates true
   app "OpenNeoVim4IDE.app"
 end
