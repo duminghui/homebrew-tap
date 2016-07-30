@@ -1,4 +1,4 @@
-cask 'OpenNeoVim4IDE' do
+cask 'openneovim4ide' do
   version '1.1.0'
   sha256 'c29109a20834bbf2956012531a4465467cb98dc36cbda8c40edcb1489dbf163b'
 
