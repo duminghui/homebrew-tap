@@ -1,6 +1,6 @@
 cask 'openxvim' do
-  version '2.1.0'
-  sha256 'e8baf897d632846e179083d1db7a362673b22cb5d26a43520d6616887cd07711'
+  version '2.2.0'
+  sha256 '7f2e50af8450594b80eef6c16cd17addfb2dbac59573a63cd77fcdd4e0db3d50'
 
   url "https://github.com/duminghui/open-x-vim/releases/download/v#{version}/OpenXVim.tgz"
   name 'Open X Vim In iTerm'
