@@ -10,7 +10,7 @@ cask 'openxvim' do
   auto_updates true
 
   depends_on cask: 'iterm2'
-  depends_on formula 'tmux' => :optional
+  # depends_on formula: 'tmux' => :optional
   depends_on formula: 'neovim/neovim/neovim'
 
   app 'OpenNeoVim.app'
