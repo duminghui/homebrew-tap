@@ -1,6 +1,6 @@
 cask 'openxvim' do
-  version '2.2.2'
-  sha256 'bad38d5a2efa09aa63c2043919dd35efc259f776b00d5b82ad30611dcad41be4'
+  version '3.0.0'
+  sha256 'a63b987c7c40af348b880b526fa5088f7ecb5690d5f916d45a6455b7479ff0fe'
 
   url "https://github.com/duminghui/open-x-vim/releases/download/v#{version}/OpenXVim.tgz"
   name 'Open X Vim In iTerm'
@@ -13,6 +13,5 @@ cask 'openxvim' do
   # depends_on formula: 'tmux' => :optional
   depends_on formula: 'neovim/neovim/neovim'
 
-  app 'OpenNeoVim.app'
-  app 'OpenVim.app'
+  app 'OpenXVim.app'
 end
