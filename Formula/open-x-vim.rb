@@ -7,7 +7,7 @@ class OpenXVim < Formula
   head "https://github.com/duminghui/open-x-vim.git"
 
   depends_on :xcode => :build
-  depends_on 'tmux' => :optional
+  depends_on 'tmux'
   depends_on 'neovim/neovim/neovim' => :optional
 
   def install
